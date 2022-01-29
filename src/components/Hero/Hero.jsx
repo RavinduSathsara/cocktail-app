@@ -1,5 +1,5 @@
 import React from "react";
-import { Stack, Container, Typography, Box, Button } from "@mui/material";
+import { Stack, Container, Typography, Box } from "@mui/material";
 const Hero = () => {
   return (
     <div>
@@ -35,10 +35,7 @@ const Hero = () => {
             direction="row"
             spacing={2}
             justifyContent="center"
-          >
-            <Button variant="contained">Main call to action</Button>
-            <Button variant="outlined">Secondary action</Button>
-          </Stack>
+          ></Stack>
         </Container>
       </Box>
     </div>
