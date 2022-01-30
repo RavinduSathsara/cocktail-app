@@ -6,7 +6,7 @@ import LocalBarIcon from "@mui/icons-material/LocalBar";
 const AppNav = () => {
   return (
     <div>
-      <AppBar position="relative">
+      <AppBar style={{ background: "#2E3B55" }} position="relative">
         <Toolbar>
           <LocalBarIcon sx={{ mr: 2 }} />
           <Typography variant="h6" color="inherit" noWrap>
