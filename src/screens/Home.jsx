@@ -28,10 +28,10 @@ export default function Home() {
       `https://www.thecocktaildb.com/api/json/v1/1/search.php?s`
     );
     const data = await response.json();
-    console.log(data.drinks);
+
     setRecipes(data);
   };
-  console.log("Test one", recipes.drinks[0].strCategory);
+
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
